@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+
+/* Header styles  */
+header {
+  padding-top: 30px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 100000;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-1 {
+  width: 243px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #009ff5b5;
+}
+
+.header-left a {
+  color: red;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-decoration: none;
+  text-shadow: 0px 4px 4px 0px black;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: red;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  text-shadow: 0px 4px 4px 0px #000000;
+}
+
+/* header finish */
+
+header,
+.hero {
+  font-family: "Nosifer", sans-serif;
+}
+
+.btn {
+  text-shadow: 0px 4px 4px #0047ff;
+  font-size: 25px !important;
+}
+.img-1 {
+  color: #000000;
+  text-align: center;
+  margin-top: 10px  ;
+  height: 40px;
+}
+h2 {
+  text-shadow: 0px 4px 4px #ffc200;
+}
+.resm {
+  box-shadow: 8px 7px 20px 0px #ffffff;
+}
+/* iformation */
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 75px;
+  text-shadow: 0px 4px 4px#FFFFFF;
+  color: #5a5555;
+}
+.btn-2 {
+  width: 278px;
+  height: 61px;
+  background: #535353;
+  box-shadow: 0px 7px 12.8px 0px #ffffff;
+}
+.btn-3 {
+  color: #000000;
+  text-shadow: 0px 4px 4px #040404cf;
+  width: 278px;
+  height: 61px;
+  box-shadow: 0px 7px 12.8px 0px #ffffff;
+  background: #ffc200;
+
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31.64px;
+}
+footer {
+  background-color: #ffc611;
+  height: 100px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+padding: 20px 0;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-right img {
+  width: 45px;
+  height: 45px;
+}
